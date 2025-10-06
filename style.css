@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Chamando Fonte */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+
+    /* Bordas View */
+    border: solid 1px #646363; 
+}
+
+/* Layout APP */
+.container-pai {
+    width: 200px;
+    height: 200px;
+
+    /* FlexBox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configurações dos Botões */
+.container-button {
+    width: 160px;
+    padding: 5px;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    cursor: pointer; 
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/* Cabeçalho */
+/* Resultado */
+/* Rodapé */
