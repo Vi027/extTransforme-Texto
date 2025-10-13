@@ -1,44 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    /* Chamando Fonte */
-    font-family: "Ubuntu", sans-serif;
-    font-size: 0.75rem; /* REM é nosso padrão */
-
-    /* Bordas View */
-    border: solid 1px #646363; 
+  /* Chamando Fonte */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.75rem; /* REM é nosso padrão */
 }
 
 /* Layout APP */
 .container-pai {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 
-    /* FlexBox */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Configurações dos Botões */
 .container-button {
-    width: 160px;
-    padding: 5px;
+  width: 160px;
+  padding: 5px;
 
-    /* Flexbox */
-    display: flex;
-    justify-content: space-evenly;
+  /* Flexbox */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .btn {
-    cursor: pointer; 
-    padding: 3px;
-    border-radius: 3px;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 /* Cabeçalho */
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-titulo img {
+  padding: 2px;
+}
+
+.input-result {
+  height: 50px;
+}
+
+.link {
+  margin-top: 0;
+  text-align: center;
+}
+
+.h3 {
+  text-align: center;
+}
+
 /* Resultado */
 /* Rodapé */
