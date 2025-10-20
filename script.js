@@ -21,5 +21,13 @@ window.document.addEventListener("DOMContentLoaded", function () {
         let resultado =
         inputText.charAt(0).toUpperCase() + inputText.slice(1).toLowerCase();
         document.querySelector("#result").value = resultado;
-    })
+    });
+
+     window.document
+    .querySelector("#btnLimpar")
+    .addEventListener("click", function () {
+      document.querySelector("#input-text").value = "";
+      document.querySelector("#result").value = "";
+      document.querySelector("#input-text").focus(); 
+    });
 });
