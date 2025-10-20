@@ -3,6 +3,12 @@
   font-family: "Ubuntu", sans-serif;
   font-size: 0.75rem; /* REM é nosso padrão */
 }
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 100vh;           
+}
 
 /* Layout APP */
 .container-pai {
@@ -23,7 +29,21 @@
 
   /* Flexbox */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.container-button2 {
+  width: 160px;
+  padding: 5px;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .btn {
@@ -31,6 +51,7 @@
   padding: 3px;
   border-radius: 3px;
 }
+
 
 /* Cabeçalho */
 .logo-titulo {
